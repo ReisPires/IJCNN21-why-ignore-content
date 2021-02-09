@@ -1,0 +1,18 @@
+# An elegant and simple HTTP library for Python, built for human beings.
+requests
+# Minimal class to download shared files from Google Drive.
+googledrivedownloader
+# Fundamental package for scientific computing with Python
+numpy
+# High-performance, easy-to-use data structures and data analysis tools for the Python programming language
+pandas
+# Python-based ecosystem software for mathematics, science, and engineering.
+scipy
+# Machine learning in Python
+scikit-learn
+# Fast Python Collaborative Filtering for Implicit Datasets
+implicit==0.4.0
+# Python framework for fast Vector Space Modelling
+gensim
+# Turi Create simplifies the development of custom machine learning models
+turicreate
