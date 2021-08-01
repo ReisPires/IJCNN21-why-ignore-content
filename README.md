@@ -43,4 +43,4 @@ Finally, you can get the scores of CB-NDCG, as well as the accuracy in the auto-
 ---
 Pedro R. Pires
 
-MSc student at Federal University of São Carlos, Brazil.
+MSc in Computer Science, Federal University of São Carlos, Brazil.
