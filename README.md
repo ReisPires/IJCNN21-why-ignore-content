@@ -1,5 +1,5 @@
-# IJCNN21 - Why Ignore Content?
-Source code of the paper "Why Ignore Content? An Intrinsic Evaluation of Embeddings for Collaborative Filtering", submitted at the International Joint Conference on Neural Networks 2021
+# KDMiLe 2021 - Why Ignore Content?
+Source code of the paper "Why Ignore Content? An Intrinsic Evaluation of Item Embeddings for Collaborative Filtering", submitted at the Symposium on Knowledge Discovery, Mining and Learning 2021
 
 ## How to reproduce experiments
 To fully reproduce the experiments presented on the papers, you'll have to perform 7 steps:
