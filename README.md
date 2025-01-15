@@ -1,8 +1,8 @@
-# KDMiLe 2021 - Why Ignore Content?
-Source code of the paper "Why Ignore Content? An Intrinsic Evaluation of Item Embeddings for Collaborative Filtering", submitted at the Symposium on Knowledge Discovery, Mining and Learning 2021
+# Beyond Recommendations: Intrinsic Evaluation Strategies for Item Embeddings in Recommender Systems
+Source code of the paper "Beyond Recommendations: Intrinsic Evaluation Strategies for Item Embeddings in Recommender Systems"
 
 ## How to reproduce experiments
-To fully reproduce the experiments presented on the papers, you'll have to perform 7 steps:
+To fully reproduce the experiments presented in the papers, you'll have to perform 7 steps:
 1. Prepare the environment
 2. Download datasets
 3. Create embeddings
@@ -29,7 +29,7 @@ To perform parameter optimization through grid search and generate the final emb
 The code execution will take some time, and it will create three folders: (1) _embeddings_, where all embeddings created during parameter optimization (_embeddings/grid search_), as well as the final embeddings (_embeddings/final_experiment_), will be stored; (2) _jsons_, having .json files with the results and best parameters; and (3) _logs_, with logs of the experiment.
 
 ### 4. Build content matrices
-All evaluation tasks uses the content of the items in a way or another. Because of that, you'll have to create sparse matrices containing the tags or categories of the items, according to the dataset. This can be done with `python3 create_content_matrices.py`
+All evaluation tasks use the content of the items. Because of that, you'll have to create sparse matrices containing the tags or categories of the items, according to the dataset. This can be done with `python3 create_content_matrices.py`
 
 ### 5. Build similarity tables
 After creating the embeddings for Last.FM and MovieLens datasets, you can generate similarity tables for different artists and movies with `python3 similarity_tables.py`
@@ -43,4 +43,4 @@ Finally, you can get the scores of CB-NDCG, as well as the accuracy in the auto-
 ---
 Pedro R. Pires
 
-MSc in Computer Science, Federal University of São Carlos, Brazil.
+PhD student in Computer Science, Federal University of São Carlos, Brazil.
